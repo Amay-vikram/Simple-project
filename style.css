@@ -1,0 +1,47 @@
+body {
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container {
+    background: #fff;
+    padding: 2em 3em;
+    border-radius: 1em;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+#counter {
+    font-size: 5em;
+    margin: 0 0 1em 0;
+    letter-spacing: 0.1em;
+}
+
+.buttons button {
+    font-size: 1.2em;
+    margin: 0 0.5em;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 0.4em;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.buttons button:hover {
+    background: #135a96;
+}
+
+.buttons #resetBtn {
+    background: #b71c1c;
+}
+
+.buttons #resetBtn:hover {
+    background: #7f1515;
+}
